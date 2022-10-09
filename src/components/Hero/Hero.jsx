@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import "./Hero.css";
-import hero_image from "../../assets/hero_image.png";
+import hero_image from "../../assets/Homepage_1200x1600Ramos.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
@@ -24,21 +24,23 @@ const Hero = () => {
             whileInView={{ left: "8px" }}
             transition={{ ...transition, type: "tween" }}
           ></motion.div>
-          <span>THE BEST FITNESS CLUB IN THE TOWN</span>
+          <span>YOUR PERSONAL ONLINE COACH</span>
         </div>
         {/* Hero text */}
         <div className="hero-text">
+        <div>
+            <span>FITNATIX </span>
+            <span>Revolution</span>
+        </div>
           <div>
-            <span className="stroke-text">Shape </span>
-            <span>Your</span>
+            <span></span>
           </div>
           <div>
-            <span>Ideal body</span>
-          </div>
-          <div>
-            <span>
-              In here we will help you to shape and build your ideal body and
-              live up your life to fullest
+            <span className="onlinecoach">
+              Your Personal Online coach.
+            </span>
+            <span className="customplan">
+              Custom tailored plans for at home,outside or in the Gym.
             </span>
           </div>
         </div>
@@ -67,7 +69,7 @@ const Hero = () => {
 
         {/* hero buttons */}
         <div className="hero-buttons">
-          <button className="btn">Get Started</button>
+          <button className="btn">Enquire Now</button>
           <button className="btn">Learn More</button>
         </div>
       </div>

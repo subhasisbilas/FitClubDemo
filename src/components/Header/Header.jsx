@@ -1,32 +1,36 @@
-import React, { useState } from "react";
-import Logo from "../../assets/logo.png";
-import "./Header.css";
-import { Link } from "react-scroll";
-import Bars from "../../assets/bars.png";
+import React, { useState } from 'react';
+import Logo from '../../assets/FitnatixlogoDownloaded.png';
+import './Header.css';
+import { Link } from 'react-scroll';
+import Bars from '../../assets/bars.png';
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
   const [menuOpened, setMenuOpened] = useState(false);
   return (
-    <div className="header" id="header">
-      <img src={Logo} alt="" className="logo" />
-      {(menuOpened===false && mobile===true)? (
+    <div className='header' id='header'>
+      <img src={Logo} alt='' className='logo' />
+      {menuOpened === false && mobile === true ? (
         <div
-          style={{ backgroundColor: "var(--appColor)", padding: "0.5rem", borderRadius: "5px" }}
+          style={{
+            backgroundColor: 'var(--appColor)',
+            padding: '0.5rem',
+            borderRadius: '5px',
+          }}
           onClick={() => setMenuOpened(true)}
         >
           <img
             src={Bars}
-            alt="bars"
-            style={{ width: "1.5rem", height: "1.5rem" }}
+            alt='bars'
+            style={{ width: '1.5rem', height: '1.5rem' }}
           />
         </div>
       ) : (
-        <ul className="header-menu">
+        <ul className='header-menu'>
           <li>
             <Link
               onClick={() => setMenuOpened(false)}
-              activeClass="active"
-              to="header"
+              activeClass='active'
+              to='header'
               spy={true}
               smooth={true}
             >
@@ -36,7 +40,7 @@ const Header = () => {
           <li>
             <Link
               onClick={() => setMenuOpened(false)}
-              to="programs"
+              to='programs'
               spy={true}
               smooth={true}
             >
@@ -46,7 +50,7 @@ const Header = () => {
           <li>
             <Link
               onClick={() => setMenuOpened(false)}
-              to="reasons"
+              to='reasons'
               spy={true}
               smooth={true}
             >
@@ -56,7 +60,7 @@ const Header = () => {
           <li>
             <Link
               onClick={() => setMenuOpened(false)}
-              to="plans"
+              to='plans'
               spy={true}
               smooth={true}
             >
@@ -66,7 +70,7 @@ const Header = () => {
           <li>
             <Link
               onClick={() => setMenuOpened(false)}
-              to="testimonials"
+              to='testimonials'
               spy={true}
               smooth={true}
             >

@@ -1,0 +1,52 @@
+https://fitnatixrevolution.com/wp-content/uploads/thegem-logos/logo_ebdb8790021ba0f9680dbd4424e4c3ba_1x.png
+
+
+/html/body/div[1]/div[1]/header/div[2]/div/div/div/div/a/span/img[2]
+
+
+<img src="https://fitnatixrevolution.com/wp-content/uploads/thegem-logos/logo_ebdb8790021ba0f9680dbd4424e4c3ba_1x.png" alt="Fitnatix Revolution" style="width:68px;" class="tgp-exclude small lazyloaded" srcset="https://fitnatixrevolution.com/wp-content/uploads/thegem-logos/logo_ebdb8790021ba0f9680dbd4424e4c3ba_1x.png 1x,https://fitnatixrevolution.com/wp-content/uploads/thegem-logos/logo_ebdb8790021ba0f9680dbd4424e4c3ba_2x.png 2x,https://fitnatixrevolution.com/wp-content/uploads/thegem-logos/logo_ebdb8790021ba0f9680dbd4424e4c3ba_3x.png 3x" data-ll-status="loaded">
+
+
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-5fdd3277: #4054B2;
+    --e-global-color-3bea1dd0: #23A455;
+    --e-global-color-75bbcbf6: #000;
+    --e-global-color-5ddd531: #FFF;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+
+
+
+
+Original
+
+
+---------------
+
+:root {
+  --lightgray: #D9D9D9;
+  --gray: #9c9c9c;
+  --orange: #f48915;
+  --darkGrey: #464D53;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --appColor:  #4054B2;
+}
+
+
+<a class="socials-item" href="https://www.facebook.com/fitnatixrevolution/" target="_blank" title="Facebook"><i class="socials-item-icon facebook "></i></a>
+
+
+<a class="socials-item" href="https://www.instagram.com/fit_natix/" target="_blank" title="Instagram"><i class="socials-item-icon instagram "></i></a>
+
+<a class="socials-item" href="https://www.youtube.com/channel/UC2dFYwOjzN-84hfxehJpKpw/" target="_blank" title="YouTube"><i class="socials-item-icon youtube "></i></a>
+

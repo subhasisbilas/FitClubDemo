@@ -12,6 +12,8 @@
 }
 .left-r > img {
   object-fit: cover;
+  width:1000px;
+  height:703px;
 }
 .left-r > :nth-child(1) {
   width: 12rem;
